@@ -1,7 +1,7 @@
 body
 {
     width: 95%;
-    
+    font-family: 'Raleway';
     margin: auto;
 }
 li
@@ -37,6 +37,7 @@ h1
     border-radius: 50%;
     top: -1px;
     left: -1px;
+    bottom: -1px;
 
     
     
@@ -58,6 +59,7 @@ h1
 {
     margin-left: 30px;
     margin-right: 20px;
+    font-weight: bold;
 }
 nav i
 {
@@ -74,20 +76,20 @@ nav i
 }
 .un
 {
-  margin-left: 5px;
+  margin-left: 4px;
 }
 .deux
 {
-    margin-left: 9px;
+    margin-left: 8px;
 }
 .trois
 {
-    margin-left: 7px;
+    margin-left: 6px;
     margin-top: 3px;
 }
 .quatre
 {
-    margin-left: 6px;
+    margin-left: 5px;
 }
 
 
@@ -371,20 +373,132 @@ nav i
     
     background-color: snow;
 }
-.activites-visuel
-{
-    margin-right: 50px;
-    height: 450px;
-    
-}
 .bulles-activites 
 {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 1px 1px 5px gray;
 }
-.fort-pomegues
+
+
+.photo-activites-2
 {
     width: 250px;
-    padding-bottom: 50px;
+    height: 200px;
+    background-image: url("activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+
+    
+}
+.photo-activites-1
+{
+    width: 250px;
+    height: 450px;
+    background-image: url("activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-position: center;
+
+}
+.photo-activites-3
+{
+    width: 250px;
+    height: 100px;
+    background-image: url("activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: 250px 150px;
+}
+.photo-activites-4
+{
+    width: 250px;
+    height: 450px;
+    background-image: url("activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: 500px 500px;
+    background-position: center;
+}
+.photo-activites-5
+{
+    width: 250px;
+    height: 150px;
+    background-image: url("activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: 250px 200px;
+}
+.photo-activites-6
+{
+    width: 250px;
+    height: 150px;
+    background-image: url("activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: 250px 200px;
+}
+.bulles-activites p
+{
+    margin-left: 10px;
+}
+.conteneur-footer
+{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(242,242,242,1);
+    position: absolute;
+    margin-left: -40px;
+    
+    
+    
+}
+
+.conteneur-texte
+{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    
+
+    
+}
+.zone-recherche
+{
+    
+    border: 1px solid rgb(242,242,242);
+    border-radius: 10px;
+    display: flex;
+    box-sizing: border-box;
+    width: 290px;
+}
+.position
+{
+    background-color: rgb(242,242,242);
+    
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px 10px;
+    
+}
+input[type=text] 
+{
+    width: 150px;
+    height: 30px;
+    border: none;
+    
+    
+    
+}
+input[type=submit]
+{
+    background-color: rgb(0, 101, 252);
+    border: none;
+    padding: 6px 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    height: 37px;
+    width: 100px;
+    color: white;
+    
+}
+.blue
+{
+    color: blue;
+}
+.grey
+{
+    color: grey;
 }
