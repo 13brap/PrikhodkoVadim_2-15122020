@@ -26,6 +26,15 @@ header
 a
 {
     text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    color: rgb(32,120,252)
+}
+#inscrire
+{
+    color: rgb(16,111,252);
 }
 h1
 {
@@ -56,8 +65,8 @@ h1
     position: absolute;
     z-index: 2;
     border-radius: 50%;
-    top: -1px;
-    left: -1px;
+    top: -2px;
+    left: -2px;
     bottom: -1px;
 
     
@@ -98,20 +107,21 @@ nav i
 }
 .un
 {
-  margin-left: 4px;
+  margin-left: 6px;
 }
 .deux
 {
-    margin-left: 8px;
+    margin-left: 10px;
 }
 .trois
 {
-    margin-left: 6px;
-    margin-top: 3px;
+    margin-left: 8px;
+    
 }
 .quatre
 {
-    margin-left: 5px;
+    margin-left: 7px;
+    margin-bottom: 3px;
 }
 
 
@@ -171,9 +181,9 @@ nav i
     height: 30px;
     padding-top: 30px;
  
-    font-weight: bold;
+    font-weight: 900;
     font-size: 20px;
-    margin-left: 30px;
+    margin-left: 10px;
     
 }
 .photos
@@ -192,8 +202,8 @@ nav i
     background-color: white;
     box-shadow: 1px 1px 5px silver;
     cursor: pointer;
-    margin: 1000px;
-    border-radius: 10px;
+    
+    border-radius: 20px;
     margin: 30px;
     z-index: 0;
     
@@ -202,7 +212,7 @@ nav i
 {
     height: 130px;
     width: 226px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 2px;
     margin-left: 2px;
     position: relative;
@@ -217,8 +227,8 @@ nav i
     z-index: 2;
     margin-top: 110px;
     margin-left: 2px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 
 }
 .description
@@ -228,14 +238,15 @@ nav i
 }
 .description h2
 {
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: bold;
     margin-top: 7px;
     margin-left: 10px;
 }
 .description p
 {
-    font-size: 10px;
-    margin-top: -5px;
+    font-size: 11px;
+    margin-top: -10px;
     margin-left: 10px;
 }
 .etoile
@@ -245,7 +256,7 @@ nav i
 .notation
 {
     position: absolute;
-    margin-top: -7px;
+    margin-top: -8px;
     margin-left: 10px;
 }
 .gras
@@ -294,8 +305,8 @@ nav i
     cursor: pointer;
     margin-top: 50px;
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px silver;
 
 }
 .bonobo
@@ -304,8 +315,8 @@ nav i
     height: 126px;
     margin-top: 2px;
     margin-left: 2px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 .adroitetavu
 {
@@ -341,6 +352,7 @@ nav i
     height: auto;
     margin-bottom: 50px;
     
+    
 }
 .conteneur-bulles-activites
 {
@@ -351,10 +363,11 @@ nav i
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
+    margin-left: 20px;
 }
 .bulles-activites:nth-child(1)
 {
-    width: 250px;
+    width: 300px;
     height: 400px;
     
     background-color: white;
@@ -362,42 +375,42 @@ nav i
 }
 .bulles-activites:nth-child(2)
 {
-    width: 250px;
+    width: 300px;
     height: 200px;
     
     background-color: white;
 }
 .bulles-activites:nth-child(3)
 {
-    width: 250px;
+    width: 300px;
     height: 150px;
 
     background-color: white;
 }
 .bulles-activites:nth-child(4)
 {
-    width: 250px;
+    width: 300px;
     height: 400px;
     
     background-color: white;
 }
 .bulles-activites:nth-child(5)
 {
-    width: 250px;
+    width: 300px;
     height: 180px;
     
     background-color: white;
 }
 .bulles-activites:nth-child(6)
 {
-    width: 250px;
+    width: 300px;
     height: 180px;
     
     background-color: white;
 }
 .bulles-activites 
 {
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 1px 1px 5px gray;
     cursor: pointer;
@@ -406,19 +419,19 @@ nav i
 
 .photo-activites-2
 {
-    width: 250px;
+    width: 300px;
     height: 150px;
     background-image: url("activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 250px 350px;
+    background-size: 300px 350px;
     
 
     
 }
 .photo-activites-1
 {
-    width: 250px;
+    width: 300px;
     height: 350px;
     background-image: url("activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-position: center;
@@ -426,14 +439,14 @@ nav i
 }
 .photo-activites-3
 {
-    width: 250px;
+    width: 300px;
     height: 100px;
     background-image: url("activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-    background-size: 250px 150px;
+    background-size: 300px 150px;
 }
 .photo-activites-4
 {
-    width: 250px;
+    width: 300px;
     height: 350px;
     background-image: url("activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: 400px 400px;
@@ -441,17 +454,17 @@ nav i
 }
 .photo-activites-5
 {
-    width: 250px;
+    width: 300px;
     height: 130px;
     background-image: url("activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-    background-size: 250px 200px;
+    background-size: 300px 200px;
 }
 .photo-activites-6
 {
-    width: 250px;
+    width: 300px;
     height: 130px;
     background-image: url("activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-    background-size: 250px 180px;
+    background-size: 300px 180px;
 }
 .bulles-activites p
 {
@@ -482,12 +495,19 @@ nav i
 .zone-recherche
 {
     
-    border: 1px solid rgb(242,242,242);
+    
     border-radius: 10px;
     display: flex;
     box-sizing: border-box;
-    width: 290px;
+    
+
+    
 }
+.btn-loupe
+{
+    display: none;
+}
+
 .position
 {
     background-color: rgb(242,242,242);
@@ -497,14 +517,18 @@ nav i
     padding: 10px 10px;
     
 }
+#onglet-recherche
+{
+    border-top: 1px solid rgb(242,242,242);
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid rgb(242,242,242);
+    border-bottom-right-radius: 10px;
+}
 input[type=text] 
 {
     width: 150px;
     height: 30px;
-    border: none;
-    
-    
-    
+    border: none;   
 }
 input[type=submit]
 {
@@ -521,94 +545,206 @@ input[type=submit]
 }
 .blue
 {
-    color: blue;
+    color: rgb(0, 101, 252);
 }
 .grey
 {
     color: grey;
 }
 
-@media all and (max-width: 1024px)
+@media all and (max-width: 1400px)
 {
     body
     {
-        width: 95%;
+        width: 100%;
     }
+    main
+    {
+        width: 90%;
+    }
+
     header h1
     {
         font-weight: bold;
     }
+    .btn-recherche-nav
+    {
+        display: none;
+        
+    }
+    button
+    {
+        width: auto;
+        height: auto;
+        background-color: white;
+        border: none;
+    }
+    input[type=text]
+    {
+        width: 200px;
+    }
+    .btn-loupe
+    {
+        display: inline;
+        margin-top: -5px;
+        height: auto;
+        width: auto;
+        background-color: rgb(0, 101, 252);
+        color: white;
+        border-radius: 12px;
+        padding: 11px 11px;
+    }
+   .zone-recherche
+   {
+       padding-left: 20px;
+       
+   }
     #conteneur
     {
         flex-direction: column-reverse;
         width: 100%;
         height: auto;
     }
+    .con-tit
+    {
+        margin-bottom: 20px;
+    }
+    .con-tit-deux
+    {
+        margin-bottom: 20px;
+    }
     .box-1
     {
-        width: auto;
+        width: 110%;
+        margin-left: -5%;
+        margin-top: 20px;
         height: auto;
         background-color: white;
+        
+    }
+    .photos
+    {
+        
+        width: 110%;
+        margin-left: -5%;
     }
     .box-2
     {
-        width: auto;
-        height: auto;
+        width: 112%;
+        height: 530px;
+        margin-left: -6%;
+        border-radius: 0px;
     }
+    .template
+    {
+        width: 90%;
+        margin-top: 10px;
+    }
+    .images
+    {
+        width: 110%;
+        margin-top: -10px;
+        border-radius: 20px;
+        
+        
+    }
+    .visuel
+    {
+        width: 99%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .pied
+    {
+        width: 92%;
+    }
+    
+    
+    
+    
     .conteneur-activites
     {
         
         height: auto;
-        width: 100%;
+        width: 110%;
         margin: 10px;
         
+        margin-left: -5%;
+        
     }
+    
     .conteneur-bulles-activites
     {
         width: auto;
         height: auto;
+        margin: auto;
     }
+    
+    
     .bulles-activites:nth-child(1)
     {
-        width: 90%;
-        height: 100px;
-        border: 1px solid violet;
+        width: 95%;
+        height: 180px;
+        margin: auto;
+        margin-bottom: 20px;
+        
+        
     }
     .bulles-activites:nth-child(2)
     {
-        width: 100%;
-        height: 100px;
-        border: 1px solid violet;
+        width: 95%;
+        height: 180px;
+        margin: auto;
+        margin-bottom: 20px;
+        
     }
     .bulles-activites:nth-child(3)
     {
-        width: 100%;
-        height: 100px;
-        border: 1px solid violet;
+        width: 95%;
+        height: 180px;
+        margin: auto;
+        margin-bottom: 20px;
+        
     }
     .bulles-activites:nth-child(4)
     {
-        width: 100%;
-        height: 100px;
-        border: 1px solid violet;
+        width: 95%;
+        height: 180px;
+        margin: auto;
+        margin-bottom: 20px;
+        
     }
     .bulles-activites:nth-child(5)
     {
-        width: 100%;
-        height: 100px;
-        border: 1px solid violet;
+        width: 95%;
+        height: 180px;
+        margin: auto;
+        margin-bottom: 20px;
+        
     }
     .bulles-activites:nth-child(6)
     {
-        width: 100%;
-        height: 100px;
-        border: 1px solid violet;
+        width: 95%;
+        height: 180px;
+        margin: auto;
+        margin-bottom: 20px;
+        
     }
     .photo-queries
     {
+        
+        background-repeat: no-repeat;
+        background-size: 350px 180px;
         width: auto;
-        height: 150px;
+        height: 130px;
+        
+        
     }
+    .photo-activites-2
+    {
+        background-size: 350px 550px;
+    }
+    
     .conteneur-texte
     {
         width: auto;
@@ -625,13 +761,18 @@ input[type=submit]
     {
         width: auto;
         flex-wrap: wrap;
-        margin-left: 0px;
+        margin-left: -20px;
         margin-top: 10px;
-        align-content: flex-start
+        
+        
+    }
+    .ecart
+    {
+        margin-left: 1px;
     }
     .navigation h2
     {
-        margin-left: 20px;
+        margin-left: 0px;
         padding-top: 20px;
         
         
@@ -639,23 +780,23 @@ input[type=submit]
     .navigation
     {
         display: inline-block;
+        width: 110%;
+        
+        
+        
     }
    
     .bouton
     {
         width: auto;
+        
     }
-    .un
-    {
-        margin-top: 8px;
-        margin-left: 8px;
-    }
+    
     .zone-recherche
     {
-        margin: auto;
-        
-        
+        margin: auto;  
     }
+    
     .entete
     {
         margin-top: 70px;
@@ -693,10 +834,207 @@ input[type=submit]
         position: absolute;
         margin-top: -45px;
         margin-left: 280px;
+        color: rgb(16,111,252);
     }
-    input[type=text]
+    
+    
+}
+@media all and (min-width: 740px) and (max-width: 1400px)
+{
+    #inscrire
     {
+      margin-left: 180%;  
+    }
+    li
+    {
+        margin-left: 50%;
         
     }
+    a
+    {
+        border: none;
+    }
+    a:hover
+    {
+        border: none;
+    }
+    header
+    {
+        border-bottom: 2px solid rgb(242,242,242);
+        padding-bottom: 50px;
+        
+    }
+    .ecart1
+    {
+        margin-left: 5px;
+    }
+    .images
+    {
+        width: 50%;
+    }
+    .photo-queries
+    {
+        background-size: 450px 200px;
+    }
+    .photo-activites-2
+    {
+        background-size: 450px 500px;
+    }
+    .pied
+    {
+        width: 54%;
+    }
+    .bulles-activites:nth-child(1)
+    {
+        width: 49%;
+    }
+    .bulles-activites:nth-child(2)
+    {
+        width: 49%;
+    }
+    .bulles-activites:nth-child(3)
+    {
+        width: 49%;
+    }
+    .bulles-activites:nth-child(4)
+    {
+        width: 49%;
+    }
+    .bulles-activites:nth-child(5)
+    {
+        width: 49%;
+    }
+    .bulles-activites:nth-child(6)
+    {
+        width: 49%;
+    }
+    
+}
+@media all and (min-width: 1024px) and (max-width: 1400px)
+{
+    #inscrire
+    {
+        margin-left: 950px;
+    }
+    header ul
+    {
+        margin-left: -200px;
+    }
+    header li 
+    {
+        margin-left: 300px;
+    }
+    .ecart2
+    {
+        margin-left: 1px;
+    }
+    .photos
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .images
+    {
+        width: 250px;
+    }
+    .conteneur-bulles-activites
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .bulles-activites:nth-child(1)
+    {
+        width: 250px;
+        height: 200px;
+    }
+    .bulles-activites:nth-child(2)
+    {
+        width: 350px;
+        height: 200px;
+    }
+    .bulles-activites:nth-child(3)
+    {
+        width: 250px;
+        height: 200px;
+    }
+    .bulles-activites:nth-child(4)
+    {
+        width: 350px;
+        height: 200px;
+    }
+    .bulles-activites:nth-child(5)
+    {
+        width: 250px;
+        height: 200px;
+    }
+    .bulles-activites:nth-child(6)
+    {
+        width: 350px;
+        height: 200px;
+    }
+    .pied
+    {
+        width: 248px;
+    }
+}
+@media all and (min-width: 1800px)
+{
+    .images
+    {
+        width: 300px;
+        height: 250px;
+    }
+    #conteneur
+    {
+        height: auto;
+    }
+    .box-1
+    {
+        height: auto;
+    }
+    .box-2
+    {
+        height: auto;
+    }
+    .template
+    {
+        width: 450px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .bonobo
+    {
+        width: 200px;
+        height: 196px;
+    }
+    .adroitetavu
+    {
+        
+        margin-left: 220px;
+        margin-top: 20px;
+    }
+    .visuel
+    {
+        width: 296px;
+        height: 200px;
+    }
+    .pied
+    {
+        
+        width: 296px;
+        height: 100px;
+        margin-top: 150px;
+    }
+    .box-1 h2
+    {
+        font-size: 20px;
+    }
+    .box-1 p
+    {
+        font-size: 13px;
+    }
+
     
 }
