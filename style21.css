@@ -6,6 +6,7 @@ body
 
     
 }
+
 main
 {
     width: 95%;
@@ -23,6 +24,7 @@ header
     color: rgb(50, 181, 241);
 
 }
+
 a
 {
     text-decoration: none;
@@ -32,6 +34,12 @@ a:hover
 {
     color: rgb(32,120,252)
 }
+button
+{
+    display: none;
+}
+
+
 #inscrire
 {
     color: rgb(16,111,252);
@@ -572,12 +580,14 @@ input[type=submit]
         display: none;
         
     }
+     
     button
     {
         width: auto;
         height: auto;
         background-color: white;
         border: none;
+        display: inline;
     }
     input[type=text]
     {
@@ -828,6 +838,7 @@ input[type=submit]
     {
         border-bottom: 2px solid blue;
         color: blue;
+        padding-bottom: 10px;
     }
     #inscrire
     {
@@ -916,6 +927,8 @@ input[type=submit]
     {
         margin-left: 950px;
     }
+    
+    
     header ul
     {
         margin-left: -200px;
